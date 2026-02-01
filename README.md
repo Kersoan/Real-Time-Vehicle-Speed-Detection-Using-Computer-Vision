@@ -60,6 +60,9 @@ Real-Time-Vehicle-Speed-Detection/
 
 ---
 
+## Sample Output
+![Speed Detection Result](output_sample.png)
+
 ## Installation
 
 ```bash
@@ -69,7 +72,7 @@ pip install -r requirements.txt
 ```
 
 """
-Real-Time Vehicle Speed Detection Using Computer Vision
-Author: Kersoan P
-Description: Detects and estimates vehicle speed from video input.
+## Real-Time Vehicle Speed Detection Using Computer Vision
+## Author: Kersoan P
+## Description: Detects and estimates vehicle speed from video input.
 """
