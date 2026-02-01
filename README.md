@@ -61,7 +61,7 @@ Real-Time-Vehicle-Speed-Detection/
 ---
 
 ## Sample Output
-![Speed Detection Result](output_sample.png)
+![Speed Detection Result](output_sample.jpg)
 
 ## Installation
 
