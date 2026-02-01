@@ -28,16 +28,24 @@ The system supports both:
 
 ---
 
-### Project Structure
-
+## Project Structure
+```
 Real-Time-Vehicle-Speed-Detection/
 │
-├── backend.py      # Flask backend for live streaming
-├── importcv2.py    # Core OpenCV speed detection logic
-├── traffic.mp4     # Input video file
+├── src/
+│   ├── speed_detection.py     # Core CV logic
+│   ├── web_app.py             # Flask streaming app
+│
+├── data/
+│   └── traffic.mp4            # Input video
+│
+├── assets/
+│   └── output_sample.png      # Screenshot of detection
+│
 ├── requirements.txt
-└── README.md
-
+├── README.md
+├── .gitignore
+```
 ---
 
 ## How It Works
@@ -58,3 +66,10 @@ Real-Time-Vehicle-Speed-Detection/
 git clone https://github.com/your-username/Real-Time-Vehicle-Speed-Detection.git
 cd Real-Time-Vehicle-Speed-Detection
 pip install -r requirements.txt
+```
+
+"""
+Real-Time Vehicle Speed Detection Using Computer Vision
+Author: Kersoan P
+Description: Detects and estimates vehicle speed from video input.
+"""
