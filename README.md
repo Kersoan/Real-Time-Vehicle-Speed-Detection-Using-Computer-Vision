@@ -70,9 +70,5 @@ git clone https://github.com/your-username/Real-Time-Vehicle-Speed-Detection.git
 cd Real-Time-Vehicle-Speed-Detection
 pip install -r requirements.txt
 ```
-
-"""
-## Real-Time Vehicle Speed Detection Using Computer Vision
 ## Author: Kersoan P
 ## Description: Detects and estimates vehicle speed from video input.
-"""
