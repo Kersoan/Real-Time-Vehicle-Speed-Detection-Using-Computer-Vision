@@ -32,8 +32,30 @@ The system supports both:
 ```
 Real-Time-Vehicle-Speed-Detection/
 │
-├── backend.py # Flask backend for live streaming
-├── importcv2.py # Core OpenCV speed detection logic
-├── traffic.mp4 # Input video file
+├── backend.py      # Flask backend for live streaming
+├── importcv2.py    # Core OpenCV speed detection logic
+├── traffic.mp4     # Input video file
 ├── requirements.txt
 └── README.md
+
+
+---
+
+## How It Works
+1. Video frames are captured using OpenCV.
+2. Background subtraction identifies moving vehicles.
+3. Contours are filtered to detect valid vehicles.
+4. Vehicles are tracked using centroid matching.
+5. Speed is calculated using:
+   - Pixel distance moved
+   - Time difference between frames
+6. Speed is converted from m/s to km/h and displayed on screen.
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/Real-Time-Vehicle-Speed-Detection.git
+cd Real-Time-Vehicle-Speed-Detection
+pip install -r requirements.txt
