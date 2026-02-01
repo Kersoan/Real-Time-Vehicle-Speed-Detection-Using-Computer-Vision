@@ -28,8 +28,8 @@ The system supports both:
 
 ---
 
-## Project Structure
-```
+### Project Structure
+
 Real-Time-Vehicle-Speed-Detection/
 │
 ├── backend.py      # Flask backend for live streaming
@@ -37,7 +37,6 @@ Real-Time-Vehicle-Speed-Detection/
 ├── traffic.mp4     # Input video file
 ├── requirements.txt
 └── README.md
-
 
 ---
 
