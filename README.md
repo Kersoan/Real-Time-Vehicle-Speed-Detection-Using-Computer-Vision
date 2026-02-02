@@ -71,4 +71,4 @@ cd Real-Time-Vehicle-Speed-Detection
 pip install -r requirements.txt
 ```
 ## Author: Kersoan P
-## Description: Detects and estimates vehicle speed from video input.
+## Description: Detects and estimates vehicle speed from the real time.
