@@ -10,7 +10,7 @@ The system supports both:
 
 ---
 
-## Key Features
+## Key Features:
 - Real-time vehicle detection using background subtraction
 - Vehicle tracking across frames with unique IDs
 - Speed estimation in km/h using distance–time calculation
