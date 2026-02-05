@@ -2,7 +2,7 @@
 
 ## Overview
 This project implements a real-time vehicle speed detection system using classical computer vision techniques.  
-It detects moving vehicles from video input, tracks their motion across frames, and estimates speed based on pixel displacement over time.
+It detects moving vehicles from video input, tracks their motion across frames, and estimates speed based on pixel displacement over time.  
 
 The system supports both:
 - Local video processing using OpenCV
