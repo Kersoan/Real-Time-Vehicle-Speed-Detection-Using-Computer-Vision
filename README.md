@@ -24,7 +24,7 @@ The system supports both:
 - OpenCV
 - NumPy
 - Imutils
-- Flask
+- Flask 
 
 ---
 
