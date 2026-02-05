@@ -7,7 +7,7 @@ It detects moving vehicles from video input, tracks their motion across frames, 
 The system supports both:
 - Local video processing using OpenCV
 - Real-time web streaming using a Flask backend
-
+ 
 ---
 
 ## Key Features:
