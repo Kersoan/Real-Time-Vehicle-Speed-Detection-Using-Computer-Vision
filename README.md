@@ -12,7 +12,7 @@ The system supports both:
 
 ## Key Features:
 - Real-time vehicle detection using background subtraction
-- Vehicle tracking across frames with unique IDs
+- Vehicle tracking across frames with unique IDs 
 - Speed estimation in km/h using distance–time calculation
 - Bounding box visualization with live speed overlay
 - Flask-based web interface for live video streaming
